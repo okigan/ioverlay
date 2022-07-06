@@ -14,3 +14,6 @@ build:
 		-I/usr/include/x86_64-linux-gnu/ ioverlay.c   \
 		-lavformat -lavcodec -lavutil -lavfilter
 		
+
+run:
+	./a.out /home/igor/ioverlay/testfiles/org_seg_720p0.ts /home/igor/ioverlay/testfiles/img_720p.png out1.mp4
